@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class ScoreTrekker {
 
-	private String[] files = {"scores.txt", "badscore.txt", "nofile.txt"};
+	private String file = "score.txt";
+	//private String[] files = {"scores.txt", "badscore.txt", "nofile.txt"};
 	
 	private ArrayList<Student> students = new ArrayList<Student>();
 
@@ -15,12 +16,17 @@ public class ScoreTrekker {
 	
 	private void printInOrder()
 	{
-		
+		Student[] sarray = (Student[]) students.toArray();
+		for(Student student : sarray)
+		{
+			System.out.println(student);
+		}
 	}
 	
 	private void processFiles()
 	{
-		
+		loadDataFromFile(file);
+		printInOrder();
 	}
 	
 	public static void main(String args[])
