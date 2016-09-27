@@ -8,7 +8,7 @@ public class ScoreTrekker {
 	private ArrayList<Student> students = new ArrayList<Student>();
 
 	
-	private void loadDataFromFile()
+	private void loadDataFromFile(String fileName)
 	{
 		
 	}
@@ -25,6 +25,7 @@ public class ScoreTrekker {
 	
 	public static void main(String args[])
 	{
-		
+		ScoreTrekker scoretrekker = new ScoreTrekker();
+		scoretrekker.processFiles();
 	}
 }
