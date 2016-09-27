@@ -1,0 +1,41 @@
+commit e589df661a21e42273fb6642b5a994c084b28ed4
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 16:23:54 2016 -0600
+
+    Updated processFiles; iterates through the files array, displays error message when FileNotFoundException error occurs, after each try/catch clear students ArrayList and prints an empty line for spacing/readibility
+
+commit eec2ce1e2ed5a8d63fca838d9f3d3254a5646489
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 16:16:42 2016 -0600
+
+    Added try catch to loop within loadDataFromFile; if incorrect score format, will skip that student, continuing the loop
+
+commit 8262da2d4d61ba4c8be3f97a3d205f8b65fdd350
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 16:08:40 2016 -0600
+
+    Finished loadDataFromFile, fixed printInOrder; FINISHED PART I: READING FROM A FILE
+
+commit c2b029b488c3024ff08370a7a99de4035b083f0d
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 15:53:28 2016 -0600
+
+    Finished processFiles and printInOrder
+
+commit a829b8bb0c09f6d8a0d10baa119d396799339729
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 15:38:59 2016 -0600
+
+    completed main method
+
+commit 02b5281ca7e6332bc0db277091ce1d956bbc7293
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 15:33:12 2016 -0600
+
+    Finished creating the Student class, took out incorrect calls in ScoreTrekker
+
+commit a309758d5542c5ae67efa93bb9aef60fd5258762
+Author: Corbin Baker <corbinbaker@mymail.mines.edu>
+Date:   Tue Sep 27 15:15:31 2016 -0600
+
+    Initial commit to repository
