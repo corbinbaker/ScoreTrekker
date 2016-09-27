@@ -19,7 +19,20 @@ public class ScoreTrekker {
 		while(in.hasNextLine())
 		{
 			String name = in.nextLine();
-			int score = Integer.parseInt(in.nextLine());
+			String s = in.nextLine();
+			int score = 0;
+			
+			try
+			{
+				score = Integer.parseInt(s);
+			}
+			catch (NumberFormatException e)
+			{
+				System.out.println("Incorrect format for " + name + " not a valid score: "
+						+ s);
+				
+				continue;
+			}
 			
 			students.add(new Student(name, score));
 		}
